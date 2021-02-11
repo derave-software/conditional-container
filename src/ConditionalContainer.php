@@ -292,6 +292,7 @@ class ConditionalContainer extends Field
                     !$field instanceof RelatableField &&
                     !$field instanceof \Whitecube\NovaFlexibleContent\Flexible &&
                     !$field instanceof \Benjacho\BelongsToManyField\BelongsToManyField &&
+                    !$field instanceof Ebess\AdvancedNovaMediaLibrary\Fields\Media &&
                     !$field instanceof \DigitalCreative\ConditionalContainer\ConditionalContainer) {
 
                     $resource->setAttribute($field->attribute, $field->value);
