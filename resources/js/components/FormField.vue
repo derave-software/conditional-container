@@ -13,6 +13,7 @@
                 :resource-id="resourceId"
                 :field="childField"
                 :errors="errors"
+                :show-help-text="true"
                 :related-resource-name="relatedResourceName"
                 :related-resource-id="relatedResourceId"
                 :via-resource="viaResource"
